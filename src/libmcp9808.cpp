@@ -55,6 +55,7 @@ bool mcp9808::init(){
     
     write16(MCP9808_REG_CONFIG, 0x0) ;
     numDev++ ;
+    _status = true;
     return true;
 }
 
