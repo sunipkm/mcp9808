@@ -75,7 +75,7 @@ public:
 
     static int numDev ;
 
-private:
+//private:
     bool _status ;
     uint8_t _addr;
     int _i2cbus ;
